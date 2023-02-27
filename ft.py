@@ -148,6 +148,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
+myweb2 = requests.get(f"https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
 logo = ("""
 \x1b[1;94m╔═════════════════════════════════════════════════════╗
 \x1b[1;94m║                                                     ║
@@ -173,6 +174,39 @@ logo = ("""
 \x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] TOOLS          :        PRO-FILE CLONER          \x1b[1;94m║
 \x1b[1;94m╚═════════════════════════════════════════════════════╝
 """)
+def approval():
+    try:
+        os.system('clear')
+        print(logo1)
+        x = requests.get('https://raw.githubusercontent.com/hop09/libraries/main/version.txt').text
+        if str("upppdate") in update:
+            os.system('clear')
+            exit('script is in update / maintanance be patient ')
+        elif str("res-sseett") in update:
+            os.system('')
+            os.system('')
+            os.system('')
+            exit('DONT TRY TO BYPASS')
+        elif bumper in myweb2:
+            print("YOUR KEY WAS APPROVED")
+            FIRE()
+        else:
+            os.system("clear");print(logo)
+            print(f"{RED}YOUR DEVICE LICENSE KEY IS NOT APPROVED")
+            print(55*"\033[1;92m=")
+            print(f"\033[1;92m\033[1;91m[\033[1;92m•\033[1;91m]KEY : {RED}{bumper}")
+            print(55*"\033[1;92m=")
+            print(f"{GREEN}[07]☞︎︎︎DAYS PRICE : 350  TK")
+            print(f"{GREEN}[15]☞︎︎︎DAYS PRICE : 500  TK")
+            print(f"{GREEN}[30]☞︎︎︎DAYS PRICE : 1000 TK")
+            print(f"{BLUE}FREE APPROVAL AVAILABLE CONTACT ME ON MY WHATSAPP TO GET FREE APPROVAL")
+            print(55*"\033[1;92m=")
+            input("\033[1;91m[PRESS ENTER TO SEND KEY TO ADMIN]")
+            os.system(f"termux-open-url https://wa.me/+9660507886506?text={bumper}")
+            approval()
+    except requests.exceptions.ConnectionError:
+        exit(' NO INTERNET CONNECTION ..')
+
 loop = 0
 oks = []
 cps = []
